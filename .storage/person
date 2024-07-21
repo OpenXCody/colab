@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "colab",
+        "name": "CoLab Admin",
+        "user_id": "a29cb74e79944e8ca62ae8920b0dabaf",
+        "device_trackers": [
+          "device_tracker.colab_control_panel"
+        ],
+        "picture": "/api/image/serve/1ecb218a6347e6154d360636a9692e33/512x512"
+      },
+      {
+        "id": "eglin_afb",
+        "name": "Eglin AFB",
+        "device_trackers": [
+          "device_tracker.colab_control_panel"
+        ],
+        "user_id": null,
+        "picture": "/api/image/serve/2d2900ad2f279c963c041c7a5f7ce23f/512x512"
+      }
+    ]
+  }
+}

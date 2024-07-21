@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.floor_registry",
+  "data": {
+    "floors": [
+      {
+        "aliases": [],
+        "floor_id": "colab",
+        "icon": null,
+        "level": 1,
+        "name": "CoLab"
+      }
+    ]
+  }
+}

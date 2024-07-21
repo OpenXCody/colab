@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "minor_version": 6,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {"area_id":null,"config_entries":["01J39R41V3JVZGASJ7XDD1A4TP"],"configuration_url":null,"connections":[],"disabled_by":null,"entry_type":"service","hw_version":null,"id":"4a18fd6575a9a57db93a312f41698e3c","identifiers":[["sun","01J39R41V3JVZGASJ7XDD1A4TP"]],"labels":[],"manufacturer":null,"model":null,"name_by_user":null,"name":"Sun","primary_config_entry":"01J39R41V3JVZGASJ7XDD1A4TP","serial_number":null,"sw_version":null,"via_device_id":null},
+      {"area_id":null,"config_entries":["01J39R582DH18K44GMBF16XKB8"],"configuration_url":"https://www.met.no/en","connections":[],"disabled_by":null,"entry_type":"service","hw_version":null,"id":"e251e02b54930f8fd5c30ebaf4051faf","identifiers":[["met","01J39R582DH18K44GMBF16XKB8"]],"labels":[],"manufacturer":"Met.no","model":"Forecast","name_by_user":null,"name":"Forecast","primary_config_entry":"01J39R582DH18K44GMBF16XKB8","serial_number":null,"sw_version":null,"via_device_id":null},
+      {"area_id":null,"config_entries":["01J39R8AV99SD9Z7VXYHNQB2FB"],"configuration_url":null,"connections":[],"disabled_by":null,"entry_type":null,"hw_version":null,"id":"969bd5eed27e7ec20d50c1b1e17c3f48","identifiers":[["mobile_app","217fbc19df6704ea"]],"labels":[],"manufacturer":"samsung","model":"SM-X110","name_by_user":null,"name":"CoLab Control Panel","primary_config_entry":"01J39R8AV99SD9Z7VXYHNQB2FB","serial_number":null,"sw_version":"34","via_device_id":null}
+    ],
+    "deleted_devices": []
+  }
+}

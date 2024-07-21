@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "data": {},
+        "disabled_by": null,
+        "domain": "sun",
+        "entry_id": "01J39R41V3JVZGASJ7XDD1A4TP",
+        "minor_version": 1,
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "title": "Sun",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "data": {},
+        "disabled_by": null,
+        "domain": "shopping_list",
+        "entry_id": "01J39R53WEAZZR3DA7KZJCSJ8G",
+        "minor_version": 1,
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Shopping list",
+        "unique_id": "shopping_list",
+        "version": 1
+      },
+      {
+        "data": {
+          "track_home": true
+        },
+        "disabled_by": null,
+        "domain": "met",
+        "entry_id": "01J39R582DH18K44GMBF16XKB8",
+        "minor_version": 1,
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Home",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2024.6.1-full (12936)",
+          "device_name": "CoLab Control Panel",
+          "manufacturer": "samsung",
+          "model": "SM-X110",
+          "os_name": "Android",
+          "os_version": "34",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "e_AzdvLfQHG8mzRu96j0Le:APA91bHLEpLxICKjqXbqeu85q6SbZVc9kuafwA19mI80BsWgKkQ0go9Szv3r6HR2FKFyd9QEAIorX3IhN4Sx0WVc7-aEaeGm_Fv1T9_eefCOMDrD1HWd7B7FV6B3lw1Xx9-SjBs1Kt4r"
+          },
+          "device_id": "217fbc19df6704ea",
+          "webhook_id": "dfb722d773b0e7d297ca5213f3a8b8e48ba490879ab4c0938fc84be190a32a3c",
+          "user_id": "a29cb74e79944e8ca62ae8920b0dabaf"
+        },
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "01J39R8AV99SD9Z7VXYHNQB2FB",
+        "minor_version": 1,
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "CoLab Control Panel",
+        "unique_id": "io.homeassistant.companion.android-217fbc19df6704ea",
+        "version": 1
+      }
+    ]
+  }
+}

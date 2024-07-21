@@ -1,0 +1,192 @@
+2024-07-21 04:31:26.900 WARNING (MainThread) [aiohttp_fast_zlib] zlib_ng and isal are not available, falling back to zlib, performance will be degraded.
+2024-07-21 04:31:27.331 ERROR (ImportExecutor_0) [homeassistant.components.camera.img_util] Error loading libturbojpeg; Camera snapshot performance will be sub-optimal
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/homeassistant/components/camera/img_util.py", line 100, in __init__
+    TurboJPEGSingleton.__instance = TurboJPEG()
+                                    ^^^^^^^^^^^
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/turbojpeg.py", line 298, in __init__
+    self.__find_turbojpeg() if lib_path is None else lib_path)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/turbojpeg.py", line 928, in __find_turbojpeg
+    raise RuntimeError(
+RuntimeError: Unable to locate turbojpeg library automatically. You may specify the turbojpeg library path manually.
+e.g. jpeg = TurboJPEG(lib_path)
+2024-07-21 04:31:27.541 ERROR (MainThread) [haffmpeg.core] FFmpeg fails [Errno 2] No such file or directory: 'ffmpeg'
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/haffmpeg/core.py", line 130, in open
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1744, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/unix_events.py", line 211, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/lib/python3.12/asyncio/unix_events.py", line 820, in _start
+    self._proc = subprocess.Popen(
+                 ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'
+2024-07-21 04:31:27.551 WARNING (MainThread) [haffmpeg.tools] Error starting FFmpeg.
+2024-07-21 04:31:34.928 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'\x16\x03\x01\x07'
+      ^
+2024-07-21 04:31:34.931 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'\x16\x03\x01\x06\xe0\x01'
+      ^
+2024-07-21 04:31:35.077 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'\x16\x03\x01\x06\xc0\x01'
+      ^
+2024-07-21 04:31:35.079 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'\x16\x03\x01\x06\xe0\x01'
+      ^
+2024-07-21 04:31:36.772 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'\x16\x03\x01\x06\xa0\x01'
+      ^
+2024-07-21 04:31:36.779 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'\x16\x03\x01\x07'
+      ^
+2024-07-21 04:31:36.921 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'\x16\x03\x01\x06\xe0\x01'
+      ^
+2024-07-21 04:31:36.925 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'\x16\x03\x01\x07'
+      ^
+2024-07-21 04:50:06.706 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'\x16\x03\x01\x01C\x01'
+      ^
+2024-07-21 04:50:06.881 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'\x16\x03\x03'
+      ^
+2024-07-21 04:50:07.047 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'\x16\x03\x03'
+      ^
+2024-07-21 04:50:07.224 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'\x16\x03\x01\x01\x1d\x01'
+      ^
+2024-07-21 04:50:11.260 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'\x16\x03\x01\x01>\x01'
+      ^
+2024-07-21 05:28:28.528 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/colab/lib/python3.12/site-packages/aiohttp/web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    b'SSH-2.0-OpenSSH_for_Windows_8.6'
+       ^

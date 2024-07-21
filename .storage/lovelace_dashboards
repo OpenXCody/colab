@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_dashboards",
+  "data": {
+    "items": [
+      {
+        "id": "dashboard_summary",
+        "show_in_sidebar": true,
+        "icon": "mdi:view-compact",
+        "title": "Summary",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "dashboard-summary"
+      }
+    ]
+  }
+}
