@@ -30,6 +30,15 @@
         "labels": [],
         "name": "Bedroom",
         "picture": null
+      },
+      {
+        "aliases": [],
+        "floor_id": "colab",
+        "icon": "mdi:robot-industrial-outline",
+        "id": "cnc_machine",
+        "labels": [],
+        "name": "CNC Machine",
+        "picture": "/api/image/serve/3be3ebbfd860eaffd3f72461bee6fd62/512x512"
       }
     ]
   }
